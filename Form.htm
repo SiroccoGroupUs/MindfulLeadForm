@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Mindful Healing - Web to Lead</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600&family=Syne:wght@400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
         :root {
             --mhw-primary: #00435E;
@@ -19,7 +19,7 @@
 
         /* Structural Styling */
         body {
-            font-family: 'Nunito Sans', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+            font-family: 'Poppins', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
             background-color: var(--mhw-bg-cream);
             margin: 0;
             padding: 40px 20px;
@@ -37,7 +37,7 @@
 
         /* Typography */
         h1 {
-            font-family: 'Syne', 'Helvetica Neue', Arial, sans-serif;
+            font-family: 'Poppins', 'Helvetica Neue', Arial, sans-serif;
             font-size: 32px;
             text-align: center;
             color: var(--mhw-primary);
@@ -82,7 +82,7 @@
             padding: 12px;
             border: 1px solid var(--mhw-divider);
             border-radius: 6px;
-            font-family: 'Nunito Sans', 'Open Sans', Arial, sans-serif;
+            font-family: 'Poppins', 'Open Sans', Arial, sans-serif;
             font-size: 14px;
             color: var(--mhw-text);
             box-sizing: border-box;
@@ -118,7 +118,7 @@
             cursor: pointer;
             font-size: 16px;
             font-weight: 600;
-            font-family: 'Nunito Sans', Arial, sans-serif;
+            font-family: 'Poppins', Arial, sans-serif;
             width: 100%;
             margin-top: 10px;
             transition: opacity 0.2s;
@@ -177,7 +177,7 @@
                     <label for="00NaJ00000J1XF7">Insurance Type *</label>
                     <select id="00NaJ00000J1XF7" name="00NaJ00000J1XF7" title="Insurance Type" required>
                         <option value="">--None--</option>
-                        <option value="Maryland Medicaid (HealthChoice)">Maryland Medicaid (HealthChoice)</option>
+                        <option value="Maryland Medicaid">Maryland Medicaid</option>
                         <option value="CareFirst BlueCross BlueShield">CareFirst BlueCross BlueShield</option>
                         <option value="Other Insurance">Other Insurance</option>
                         <option value="Self-Pay">Self-Pay</option>
@@ -190,7 +190,7 @@
                         <option value="">--None--</option>
                         <option value="Individual Therapy (Adult)">Individual Therapy (Adult)</option>
                         <option value="Child / Adolescent Therapy">Child / Adolescent Therapy</option>
-                        <option value="Couples / Family Therapy">Couples / Family Therapy</option>
+                        <option value="Family Therapy">Family Therapy</option>
                         <option value="Medication Management">Medication Management</option>
                         <option value="Psychiatric Rehab Program (PRP)">Psychiatric Rehab Program (PRP)</option>
                         <option value="I&#39;m Not Sure — Help Me Decide">I&#39;m Not Sure — Help Me Decide</option>
@@ -204,7 +204,7 @@
                     <select id="00NW4000003oBY1" multiple="multiple" name="00NW4000003oBY1" title="Secondary Services of Interest">
                         <option value="Individual Therapy (Adult)">Individual Therapy (Adult)</option>
                         <option value="Child / Adolescent Therapy">Child / Adolescent Therapy</option>
-                        <option value="Couples / Family Therapy">Couples / Family Therapy</option>
+                        <option value="Family Therapy">Family Therapy</option>
                         <option value="Medication Management">Medication Management</option>
                         <option value="Psychiatric Rehab Program (PRP)">Psychiatric Rehab Program (PRP)</option>
                     </select>
@@ -215,10 +215,9 @@
                 <div class="form-col">
                     <label for="00NaJ00000NThlw">Preferred Format</label>
                     <select id="00NaJ00000NThlw" name="00NaJ00000NThlw" title="Preferred Format">
-                        <option value="">--None--</option>
                         <option value="In-Person">In-Person</option>
                         <option value="Virtual">Virtual</option>
-                        <option value="No Preference">No Preference</option>
+                        <option value="No Preference" selected>No Preference</option>
                     </select>
                 </div>
                 <div class="form-col" id="location_wrapper" style="display: none;">
@@ -286,10 +285,9 @@
                 <div class="form-col">
                     <label for="00NW4000003oADl">Clinician Gender Preference</label>
                     <select id="00NW4000003oADl" name="00NW4000003oADl" title="Clinician Gender Preference">
-                        <option value="">--None--</option>
                         <option value="Female">Female</option>
                         <option value="Male">Male</option>
-                        <option value="No Preference">No Preference</option>
+                        <option value="No Preference" selected>No Preference</option>
                     </select>
                 </div>
                 <div class="form-col">
